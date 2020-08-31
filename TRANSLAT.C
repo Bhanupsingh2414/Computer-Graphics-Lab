@@ -4,8 +4,8 @@
 void main()
 {
  int gd=DETECT,gm;
- initgraph(&gd,&gm,"C:\\tc\\bgi");
  int x,y,tx,ty;
+ initgraph(&gd,&gm,"C:\\tc\\bgi");
  printf("Enter coordinates\n");
  scanf("%d%d",&x,&y);
  putypixel(x,y,7);
